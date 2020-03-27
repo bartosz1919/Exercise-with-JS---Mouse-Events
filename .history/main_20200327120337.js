@@ -24,6 +24,8 @@ document.body.addEventListener("click", (e) => {
         console.log("mix");
     }
 
+
+
     console.log(x);
     console.log(y);
 

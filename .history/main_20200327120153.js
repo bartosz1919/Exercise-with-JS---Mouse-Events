@@ -5,6 +5,10 @@
 // jeśli jeden z kolorów jest parzysty a drugi nieparzysty to kolor zielony
 
 
+
+
+
+
 document.body.addEventListener("click", (e) => {
 
 
@@ -14,15 +18,19 @@ document.body.addEventListener("click", (e) => {
 
 
     if (x % 2 == 0 && y % 2 == 0) {
-        bgc.style.backgroundColor = "rgb(255, 0, 0)";
+        bgc.style.backgroundColor = rgb(255, 0, 0);
+
         console.log("parity");
     } else if (x % 2 != 0 && y % 2 != 0) {
-        bgc.style.backgroundColor = "rgb(0, 0, 255)";
+
+
         console.log("no parity");
     } else {
-        bgc.style.backgroundColor = "rgb(0, 255, 0)";
+
         console.log("mix");
     }
+
+
 
     console.log(x);
     console.log(y);
